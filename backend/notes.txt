@@ -1,0 +1,35 @@
+npm i express mongoose dotenv jsonwebtoken bcryptjs cookie-parser cloudinary socket.io cors
+npm i nodemon -D
+
+initially auth.route.js : we make it more modular by writing the callback functions in controllers and then importing them in routes
+router.post("/signup", (req, res) => {
+  res.send("signup route")
+})
+
+router.post("/login", (req, res) => {
+  res.send("login route")
+})
+
+router.post("/logout", (req, res) => {
+  res.send("logout route")
+})
+
+auth.controller while import is wrong instead it should be auth.controller.js
+
+dotenv.config() function called to access env variable
+
+if you dont give db name in uri it will be called test in the db/cluster and all the collections will be there in the test db
+
+"Parsing a cookie" means taking the raw string representation of a cookie (which is how it's sent between a web browser and a server) and breaking it down into its individual components.
+A raw cookie string often looks something like this: name=value; Expires=Wed, 02-Jul-2025 18:30:00 GMT; Path=/; HttpOnly
+When you "parse" this cookie, you extract the meaningful information:
+Name: name
+Value: value
+Expires: Wed, 02-Jul-2025 18:30:00 GMT (this gets converted into a date object)
+Path: /
+HttpOnly: true (a flag indicating the cookie can't be accessed by client-side JavaScript)
+
+checkAuth :  when we refresh our page we just need to check if user is authenticated, 
+  depending upon that we are going to take them either to profile page or login page
+
+we are serving both the api and the react application(build) under the same place

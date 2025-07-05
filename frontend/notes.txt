@@ -1,0 +1,14 @@
+npm create vite@latest .
+npm i react-router-dom react-hot-toast axios zustand lucide-react socket.io-client
+npm i -D daisyui@latest
+
+zustand global state management solution
+create state once use anywhere
+
+if width and height are same we can set size in tailwind
+https://github.com/burakorkmez/fullstack-chat-app
+
+socketio client and server package
+client -> server -> client
+
+when we close the browser the server/socket immediately understands that there is no connection anymore
