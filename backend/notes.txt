@@ -33,3 +33,7 @@ checkAuth :  when we refresh our page we just need to check if user is authentic
   depending upon that we are going to take them either to profile page or login page
 
 we are serving both the api and the react application(build) under the same place
+
+openssl rand -base64 32 : generate 32 length random string
+
+run this only once when you need users : node src/seeds/user.seed.js : in backend folder
