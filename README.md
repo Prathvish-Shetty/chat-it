@@ -21,6 +21,6 @@ Chat-It is a real-time chat application that enables users to securely sign up, 
 * 🎨 **UI/UX**: Clean and modern design using DaisyUI + Lucide icons.
 * ☁️ **Deployment**: Backend and frontend both deployed on Render for free tier hosting.
 
-**🔹 Live Demo:** [https://chat-it-wpmj.onrender.com](#)
+**🔹 Live Demo:** [https://chat-it-wpmj.onrender.com](https://chat-it-wpmj.onrender.com)
 
 ---
